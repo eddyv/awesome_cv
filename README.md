@@ -1,5 +1,7 @@
 # awesome_cv
-personal cv based off of https://github.com/posquit0/Awesome-CV
+personal cv based off of https://github.com/posquit0/Awesome-CV.
+
+[Current CV can be found here](./Vaisman_Edward_Resume_2020.pdf)
 
 
 <h1 align="center">

@@ -12,9 +12,8 @@
 
 #show: cv.with(metadata)
 #importModules((
-  "professional",
-  "education",
+  "summary",
+  "experience",
   "skills",
-  "projects",
-  "publications",
+  "education",
 ))

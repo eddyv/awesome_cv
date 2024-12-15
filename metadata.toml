@@ -1,4 +1,4 @@
-#:schema https://raw.githubusercontent.com/mintyfrankie/brilliant-CV/main/metadata.toml.schema.json
+#:schema ~/.cache/typst/packages/preview/brilliant-cv/2.0.3/metadata.toml.schema.json
 
 # Set the output language
 # INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
@@ -10,9 +10,9 @@ language = "en"
     awesome_color = "skyblue"
 
     # Skips are for controlling the spacing between sections and entries
-    before_section_skip = "1pt"
-    before_entry_skip = "1pt"
-    before_entry_description_skip = "1pt"
+    before_section_skip = "5pt"
+    before_entry_skip = "5pt"
+    before_entry_description_skip = "0pt"
 
     [layout.fonts]
         regular_fonts = ["Source Sans 3", "Source Sans Pro", "Source Sans 3"]
@@ -66,6 +66,5 @@ language = "en"
 # i.e. [[lang.ru]]
 # each section must contains the following fields
 [lang.en]
-    header_quote = "Experienced Data Analyst looking for a full time job starting from now"
     cv_footer = "Curriculum vitae"
     letter_footer = "Cover letter"

@@ -1,5 +1,5 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.3": letter
+#import "@local/brilliant-cv:2.0.3": letter
 #let metadata = toml("./metadata.toml")
 
 

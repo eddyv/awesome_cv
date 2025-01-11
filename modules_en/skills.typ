@@ -18,7 +18,7 @@
 
 #cvSkill(
   type: [Big Data],
-  info: [Confluent, Kafka, Flink,DataHub],
+  info: [Confluent, Kafka, Flink, DataHub],
 )
 
 #cvSkill(
@@ -28,10 +28,5 @@
 
 #cvSkill(
   type: [DevOps],
-  info: [GitHub, GitHub Actions, SemaphoreCI, SaltStack, Terraform, Nomad, Vault, Docker, GitLab, Ansible, Maven ],
-)
-
-#cvSkill(
-  type: [Languages],
-  info: [English, Russian.],
+  info: [GitHub, GitHub Actions, SaltStack, Terraform, Nomad, Vault, Docker, GitLab, Ansible, Maven ],
 )

@@ -1,5 +1,5 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.3": cvSection, cvEntry
+#import "@local/brilliant-cv:2.0.3": cvSection, cvEntry
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
@@ -14,22 +14,24 @@
   date: [Oct 2022 - Current],
   location: [Toronto, ON],
   description: list(
-    [Architected and secured a robust, multi-datacenter Kafka infrastructure, including add-ons like Confluent Schema Registry, MirrorMaker2, and Kafka Connect.],
-    [Developed automation for provisioning, maintaining, and monitoring Kafka environments using the HashiCorp stack.],
-    [Designed, implemented, and operated multi-datacenter Kafka infrastructure along-side kafka add-ons such as Confluent Schema Registry, MirrorMaker2, Kafka Connect.],
-    [Implemented observability solutions, creating real-time monitoring dashboards to track Kafka cluster connectivity, security, and performance. (DataDog, ElasticSearch, Prometheus, Grafana)],
-    [Built self-serve GitOps tools to increase speed and productivity of developers using the kafka platform. (Topic Management, ACL Management, Kafka Connect Cluster Deployment, KSQL Deployment, Self-Hosted GitHub Runners, etc... )],
-    [Increased our PaaS offerings by building an in-house CLI to interact with our private cloud infrastructure to deal with secret management, volume management, application deployment. (Typer CLI, Nomad APIs, Vault APIs)],
-    [Optimized Kafka performance by identifying bottlenecks and implementing throughput enhancements.],
-    [Ensured system reliability through rigorous disaster recovery testing and routine backup and restoration exercises.],
-    [Educated staff on Kafka architecture, Schema Registry, and event-driven design principles, fostering company-wide adoption of best practices.],
+    [Designed \& built a Kafka proxy to interpret Kafka's wire protocol, bridging clients and brokers to unlock advanced Confluent Cloud use cases via pluggable modules (Authentication Transformers, Interceptors).],
+    [Developed a DynamoDB Source Connector for a client, later promoted to a fully managed source connector.],
+    [Enhanced consumption tracking methodologies, driving insights into confluent cloud usage and billing.],
+    [Delivered an end-to-end Generative AI and Retrieval-Augmented Generation (RAG) application, integrating Confluent, Apache Flink, AI Model Inference, MongoDB Atlas, and a suite of AWS services (including Lambda, API Gateway, Secrets Manager, and S3), showcased at AWS re:Invent and webinars as a go-to-market initiative, strengthening strategic partnerships through co-marketing and technical collaboration.],
+    [Engineering cutting-edge Model Context Protocol (MCP) architectures to enhance LLM capabilities and RAG system integration.],
   ),
   tags: (
     "Kafka",
     "Flink",
+    "KStream",
+    "Model Context Protocol",
     "Terraform",
     "Java",
     "Vert.x",
+    "GenAI",
+    "AWS",
+    "GCP",
+    "Azure"
   ),
 )
 
@@ -56,8 +58,6 @@
     "Nomad",
     "Vault",
     "SaltStack",
-    "Python",
-    "Bash",
     "Docker",
     "GitHub Actions",
     "Prometheus",
@@ -87,10 +87,7 @@
     "Kafka Streams",
     "Java",
     "Spring Boot",
-    "Tibco",
     "AWS",
-    "Lambda",
-    "Secrets Manager",
   ),
 )
 

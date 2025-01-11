@@ -11,12 +11,12 @@ language = "en"
 
   # Skips are for controlling the spacing between sections and entries
   before_entry_description_skip = "0pt"
-  before_entry_skip             = "5pt"
-  before_section_skip           = "5pt"
+  before_entry_skip             = "0pt"
+  before_section_skip           = "0pt"
 
   [layout.fonts]
-    header_font   = "RobotoMono Nerd Font"
-    regular_fonts = ["RobotoMono Nerd Font"]
+    header_font   = "Open Sans"
+    regular_fonts = ["Open Sans"]
 
   [layout.header]
     # Optional values: left, center, right

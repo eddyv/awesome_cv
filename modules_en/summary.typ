@@ -7,4 +7,4 @@
 
 #cvSection("Professional Summary")
 
-#cvSummary(description: "Software developer with 8 years of professional experience and a potent interest for event-driven systems. Proficiency in operating multi-region distributed streaming platforms like apache kafka on aws. Extensive software development life cycle experience exercised from start to finish along with prominent communication skills and constructive attitude.")
+#cvSummary(description: "Software engineer with 8+ years of expertise specializing in distributed systems and event-driven architectures. Proven track record in designing and implementing enterprise-scale Kafka ecosystems, cloud-native solutions, and real-time data pipelines across various cloud providers. Known for architecting sophisticated systems - from protocol-level engineering to AI-powered applications - while championing technical excellence and automating workflows.")

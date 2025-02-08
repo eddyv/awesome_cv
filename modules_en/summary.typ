@@ -7,4 +7,4 @@
 
 #cvSection("Professional Summary")
 
-#cvSummary(description: "Software engineer with 8+ years of expertise specializing in distributed systems and event-driven architectures. Proven track record in designing and implementing enterprise-scale Kafka ecosystems, cloud-native solutions, and real-time data pipelines across various cloud providers. Known for architecting sophisticated systems - from protocol-level engineering to AI-powered applications - while championing technical excellence and automating workflows.")
+#cvSummary(description: "Compassionate and detail-oriented Registered Nurse with over 7 years of experience in labour and delivery at Southlake Regional Hospital. Highly skilled in patient education, emotional support, and coordinating care for women and families. Adept at working within an interdisciplinary team to provide patient-centered care, support ethical decision-making, and deliver high-quality outcomes. Strong background in phlebotomy, IV insertion, procedural assistance, and patient counseling. Seeking to leverage expertise in women’s health and reproductive care in a fertility nursing role.")

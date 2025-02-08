@@ -15,6 +15,7 @@
 #importModules((
   "summary",
   "experience",
+  "certificates",
   "skills",
   "education",
 ))

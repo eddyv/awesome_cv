@@ -7,12 +7,12 @@ language = "en"
 [layout]
   # Optional values: skyblue, red, nephritis, concrete, darknight
   # You can also use a custom color by hex code i.e. "#1E90FF"
-  awesome_color = "skyblue"
+  awesome_color = "darknight"
 
   # Skips are for controlling the spacing between sections and entries
-  before_entry_description_skip = "0pt"
-  before_entry_skip             = "0pt"
-  before_section_skip           = "0pt"
+  before_entry_description_skip = "2pt"
+  before_entry_skip             = "2pt"
+  before_section_skip           = "2pt"
 
   [layout.fonts]
     header_font   = "Open Sans"
@@ -20,7 +20,7 @@ language = "en"
 
   [layout.header]
     # Optional values: left, center, right
-    header_align = "center"
+    header_align = "left"
 
     # Decide if you want to display profile photo or not
     display_profile_photo = false
@@ -30,37 +30,52 @@ language = "en"
     display_entry_society_first = true
 
     # Decide if you want to display organisation logo or not
-    display_logo = true
+    display_logo = false
 
 [inject]
   # Decide if you want to inject AI prompt or not
-  inject_ai_prompt = false
+  inject_ai_prompt = true
 
   # Decide if you want to inject keywords or not
-  inject_keywords        = true
-  injected_keywords_list = ["Data Analyst", "GCP", "Python", "SQL", "Tableau"]
+  inject_keywords = true
+  injected_keywords_list = [
+    "Registered Nurse",
+    "Birthing",
+    "Fertility",
+    "Labour",
+    "Triage",
+    "Administer",
+    "Assess",
+    "Assist",
+  ]
 
 [personal]
-  first_name = "Edward"
-  last_name  = "Vaisman"
+  first_name = "Rebecca"
+  last_name  = "Guerrera"
 
   # The order of this section will affect how the entries are displayed
   # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
   [personal.info]
-    email    = "vaismanedward@gmail.com"
-    github   = "eddyv"
-    homepage = "edwardvaisman.ca"
-    linkedin = "edwardvaisman"
-    phone    = "(+1) 647-219-6236"
+    email = "rtguerrera@gmail.com"
+    # homepage = "edwardvaisman.ca"
+    phone = "(+1) 647-377-3520"
     # gitlab = "mintyfrankie"
     # orcid = "0000-0000-0000-0000"
     # researchgate = "John-Doe"
     # extraInfo = "I am a cool kid"
-    # [personal.info.custom-1]
-    #     # image = "" # Example: image("./path/to/image.png")
-    #     awesomeIcon = "graduation-cap" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
-    #     text = "PhD"
-    #     link = "https://www.example.com"
+    [personal.info.custom-3]
+      awesomeIcon = "user-doctor"
+      text        = "Registered Nurse"
+    [personal.info.custom-1]
+      # image = "" # Example: image("./path/to/image.png")
+      awesomeIcon = "graduation-cap" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
+      # link        = "https://www.example.com"
+      text = "BScN"
+    [personal.info.custom-2]
+      # image = "" # Example: image("./path/to/image.png")
+      awesomeIcon = "house" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
+      # link        = "https://www.example.com"
+      text = "Vaughan, ON"
 
 # add a new section if you want to include the language of your choice
 # i.e. [[lang.ru]]

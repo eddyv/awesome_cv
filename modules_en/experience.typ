@@ -8,102 +8,53 @@
 #cvSection("Professional Experience")
 
 #cvEntry(
-  title: [Staff Partner Innovation Engineer],
-  society: [Confluent],
-  logo: image("../src/logos/confluent.png"),
-  date: [Oct 2022 - Current],
-  location: [Toronto, ON],
+  title: [Registered Nurse (Birthing Unit)],
+  society: [Southlake Regional Health Centre],
+  date: [January 2018 - Current],
+  location: [Newmarket, ON],
   description: list(
-    [Designed \& built a Kafka proxy to interpret Kafka's wire protocol, bridging clients and brokers to unlock advanced Confluent Cloud use cases via pluggable modules (Authentication Transformers, Interceptors).],
-    [Developed a DynamoDB Source Connector for a client, later promoted to a fully managed source connector.],
-    [Enhanced consumption tracking methodologies, driving insights into confluent cloud usage and billing.],
-    [Delivered an end-to-end Generative AI and Retrieval-Augmented Generation (RAG) application, integrating Confluent, Apache Flink, AI Model Inference, MongoDB Atlas, and a suite of AWS services (including Lambda, API Gateway, Secrets Manager, and S3), showcased at AWS re:Invent and webinars as a go-to-market initiative, strengthening strategic partnerships through co-marketing and technical collaboration.],
-    [Engineering cutting-edge Model Context Protocol (MCP) architectures to enhance LLM capabilities and RAG system integration.],
-  ),
-  tags: (
-    "Kafka",
-    "Flink",
-    "KStream",
-    "Model Context Protocol",
-    "Terraform",
-    "Java",
-    "Vert.x",
-    "GenAI",
-    "AWS",
-    "GCP",
-    "Azure"
+    [Assumed charge nurse duties, coordinating patient assignments and supervising clinical operations.],
+    [Educated patients on labour and delivery processes, postpartum care, and breastfeeding techniques.],
+    [Assisted in Caesarean sections (C-Sections) and high-risk deliveries, ensuring patient safety and adherence to protocols.],
+    [Completed thorough physical assessments and implement individualized care plans based on ongoing evaluations.],
+    [Fostered therapeutic relationships with patients and families regarding birth plans, pregnancy complications, postpartum recovery, etc.],
+    [Provided emotional support for families experiencing complications, loss, or unexpected outcomes.],
+    [Assisted physicians with various procedures, including epidurals, fetal monitoring, and emergency interventions.],
+    [Performed IV insertions, phlebotomy, and medication administration as part of routine patient care.],
+    [Ensured compliance with infection-control policies, patient safety protocols and more.],
+    [Worked closely with obstetricians, midwives, and allied health professionals to coordinate seamless patient care.],
+    [Served as a mentor and preceptor for new nurses and students, supporting skill development and best practices.],
+    [Active participation in quality improvement and patient safety initiatives.],
+    [Supported diverse patient populations, ensuring a safe and inclusive environment.],
+  )
+)
+
+#cvEntry(
+  title: [Student Nurse],
+  society: [Welcome Centre Immigrant Services],
+  date: [Jan 2017 - April 2017],
+  location: [Richmomnd Hill, ON],
+  description: list(
+    [Developed strong relationships with new immigrant families, deepening my understanding of diverse cultural experiences while enhancing cross-cultural communication skills.]
   ),
 )
 
 #cvEntry(
-  title: [Senior Staff Engineer (Kafka)],
-  society: [Wavelo (Tucows)],
-  logo: image("../src/logos/tucows_logo.jpg"),
-  date: [Nov 2020 - Oct 2022],
+  title: [Student Nurse],
+  society: [Sunnybrook Hospital],
+  date: [Sept 2016 - Dec 2016],
   location: [Toronto, ON],
   description: list(
-    [Architected multi-datacenter Kafka infrastructure with Schema Registry, MirrorMaker2, and Connect.],    [Developed automation for provisioning, maintaining, and monitoring Kafka environments using the HashiCorp stack.],
-    [Implemented observability solutions, creating real-time monitoring dashboards to track Kafka cluster connectivity, security, and performance. (DataDog, ElasticSearch, Prometheus, Grafana)],
-    [Built self-serve GitOps tools to increase speed and productivity of developers using the kafka platform. (Topic Management, ACL Management, Kafka Connect Cluster Deployment, KSQL Deployment, Self-Hosted GitHub Runners, etc... )],
-    [Increased our PaaS offerings by building an in-house CLI to interact with our private cloud infrastructure to deal with secret management, volume management, application deployment. (Typer CLI, Nomad APIs, Vault APIs)],
-    [Optimized Kafka performance by identifying bottlenecks and implementing throughput enhancements.],
-    [Ensured system reliability through rigorous disaster recovery testing and routine backup and restoration exercises.],
-    [Educated staff on Kafka architecture, Schema Registry, and event-driven design principles, fostering company-wide adoption of best practices.],
-  ),
-  tags: (
-    "Kafka",
-    "Terraform",
-    "Nomad",
-    "Vault",
-    "SaltStack",
-    "Docker",
-    "GitHub Actions",
-    "Prometheus",
-    "Grafana",
-    "DataDog",
-    "ElasticSearch",
-  ),
+    [Developed clinical competencies in patient assessment and management within a dynamic hospital setting.]
+  )
 )
 
 #cvEntry(
-  title: [Senior Application Developer],
-  society: [Bank Of Montreal (BMO)],
-  logo: image("../src/logos/bank_of_montreal_logo.jpg"),
-  date: [Sept 2018 - Oct 2020],
-  location: [Toronto, ON],
+  title: [Student Nurse],
+  society: [Mackenzie Health],
+  date: [Sept 2017 - Dec 2017, Jan 2016 - April 2016, Sept 2015 - Dec 2015],
+  location: [Richmond Hill, ON],
   description: list(
-    [Played a key role in advancing the bank's Customer Intelligence Platform by delivering a near real-time solution to provide the business with a unified view of customer interactions and enhance customer experience.],
-    [Designed and implemented a secure, field-level encrypted real-time data pipeline enabling seamless data transfer between on-premises and cloud-based Kafka clusters (AWS).],
-    [Developed and optimized real-time streaming data pipelines to facilitate reliable data exchange across systems and applications.],
-  ),
-  tags: (
-    "Kafka",
-    "Kafka Streams",
-    "Java",
-    "Spring Boot",
-    "AWS",
-  ),
-)
-
-#cvEntry(
-  title: [Web Developer],
-  society: [Viacoremedia],
-  logo: image("../src/logos/viacoremedia.jpg"),
-  date: [May 2016 - Sept 2018],
-  location: [Toronto, ON],
-  description: list(
-    [Designed and developed scalable, responsive, and robust web pages optimized for high performance \& conversion rates.],
-    [Managed web pages, email hosting, and web hosting services to ensure seamless client operations and user satisfaction.],
-    [Delivered detailed software solutions encompassing animations, scripting, and CMS development.],
-  ),
-  tags: (
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "PHP",
-    "WordPress",
-    "JQuery",
-    "Google Apps Scripts",
-    "SEO",
+    [Enhanced practical skills in patient care, medical-surgical nursing, and teamwork across various clinical units.]
   ),
 )

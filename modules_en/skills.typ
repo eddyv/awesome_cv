@@ -4,29 +4,46 @@
 #let cvSection = cvSection.with(metadata: metadata)
 
 
-#cvSection("Skills")
+#cvSection("Clinical & Professional Skills")
 
 #cvSkill(
-  type: [Programming],
-  info: [Java, Python, Bash, C\#, XNA Game Studio],
+  type: [Patient Care],
+  info: [Patient education, delivery support, postpartum care, high-risk deliveries, and emergency intervention assistance.],
 )
 
 #cvSkill(
-  type: [Web],
-  info: [HTML5, CSS, JavaScript, Tailwindcss, Astro, WordPress, React],
+  type: [Patient Support],
+  info: [Emotional support, birth plan consultation, and patient counseling.],
 )
 
 #cvSkill(
-  type: [Big Data],
-  info: [Confluent, Kafka, Flink, DataHub],
+  type: [Clinical Procedures],
+  info: [Skilled in IV insertions, phlebotomy, med administration, and assisting with epidurals and fetal monitoring.],
 )
 
 #cvSkill(
-  type: [Cloud],
-  info: [AWS, GCP, Azure, OpenStack, DigitalOcean],
+  type: [Leadership],
+  info: [Preceptor for new nurses and students; charge nurse responsibilities; interdisciplinary team coordination.],
 )
 
 #cvSkill(
-  type: [DevOps],
-  info: [GitHub, GitHub Actions, SaltStack, Terraform, Nomad, Vault, Docker, GitLab, Ansible, Maven ],
+  type: [Quality & Safety],
+  info: [Active participation in quality improvement projects, strict adherence to infection control & safety protocols.],
+)
+
+#cvSkill(
+  type: [Technical],
+  info: [Electronic health records (EHR), Microsoft Office Suite, and medical equipment operation.],
+)
+
+#cvSection("Languages")
+
+#cvSkill(
+  type: [English],
+  info: [Native/Professional Proficiency],
+)
+
+#cvSkill(
+  type: [Italian],
+  info: [Basic],
 )

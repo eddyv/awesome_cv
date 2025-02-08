@@ -8,11 +8,11 @@
 #cvSection("Education")
 
 #cvEntry(
-  title: [B.Sc, Spec. Hons. Computer Science (Software Development)],
+  title: [Bachelor of Science in Nursing (BScN) Degree],
   society: [York University],
-  date: [Sept 2013 - April 2018],
+  date: [Sept 2014 - April 2018],
   location: [Toronto, ON],
-  // logo: image("../src/logos/ucla.png"),
   description: list(
+    [Graduated with Honours and Cum Laude recognition.]
   ),
 )

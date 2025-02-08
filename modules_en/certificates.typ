@@ -1,33 +1,28 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.3": cvSection, cvHonor
+#import "@preview/brilliant-cv:2.0.3": cvSection, cvSkill
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
-#let cvHonor = cvHonor.with(metadata: metadata)
 
 
 #cvSection("Certificates")
 
 
-#cvHonor(
-  date: [Feb 2024],
-  title: [Fetal Health Surveillance],
-  issuer: [FHS],
+#cvSkill(
+  info: [Fetal Health Surveillance],
+  type: [FHS],
 )
 
-#cvHonor(
-  date: [June 2024],
-  title: [Basic Cardiac Life Support],
-  issuer: [BCLS],
+#cvSkill(
+  info: [Basic Cardiac Life Support],
+  type: [BCLS],
 )
 
-#cvHonor(
-  date: [May 2023],
-  title: [Neonatal Resuscitation Program],
-  issuer: [NRP],
+#cvSkill(
+  info: [Neonatal Resuscitation Program],
+  type: [NRP],
 )
 
-#cvHonor(
-  date: [Pursuing],
-  title: [Advanced Cardiac Life Support],
-  issuer: [ACLS],
+#cvSkill(
+  info: [College of Nurses of Ontario],
+  type: [CNO],
 )

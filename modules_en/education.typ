@@ -4,7 +4,6 @@
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
 
-
 #cvSection("Education")
 
 #cvEntry(
@@ -14,5 +13,18 @@
   location: [Toronto, ON],
   description: list(
     [Graduated with Honours and Cum Laude recognition.]
+  ),
+)
+
+
+#cvSection("Extracurricular Activities")
+
+#cvEntry(
+  title: [Perinatal Bereavement Committee Member],
+  society: [Southlake Regional Health Centre],
+  date: [Jan 2025 - Current],
+  location: [Toronto, ON],
+  description: list(
+    [Providing the highest level of compassionate and respectful care to families experiencing loss during the childbearing years.]
   ),
 )

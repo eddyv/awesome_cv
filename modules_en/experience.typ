@@ -10,7 +10,7 @@
 #cvEntry(
   title: [Registered Nurse (Birthing Unit)],
   society: [Southlake Regional Health Centre],
-  date: [January 2018 - Current],
+  date: [Jan 2018 - Current],
   location: [Newmarket, ON],
   description: list(
     [Assumed charge nurse duties, coordinating patient assignments and supervising clinical operations.],
@@ -33,9 +33,19 @@
   title: [Student Nurse],
   society: [Welcome Centre Immigrant Services],
   date: [Jan 2017 - April 2017],
-  location: [Richmomnd Hill, ON],
+  location: [Richmond Hill, ON],
   description: list(
     [Developed strong relationships with new immigrant families, deepening my understanding of diverse cultural experiences while enhancing cross-cultural communication skills.]
+  ),
+)
+
+#cvEntry(
+  title: [Student Nurse],
+  society: [Mackenzie Health],
+  date: [Sept 2015 - Dec 2015, Jan 2016 - April 2016, Sept 2017 - Dec 2017],
+  location: [Richmond Hill, ON],
+  description: list(
+    [Enhanced practical skills in patient care, medical-surgical nursing, and teamwork across various clinical units.]
   ),
 )
 
@@ -47,14 +57,4 @@
   description: list(
     [Developed clinical competencies in patient assessment and management within a dynamic hospital setting.]
   )
-)
-
-#cvEntry(
-  title: [Student Nurse],
-  society: [Mackenzie Health],
-  date: [Sept 2017 - Dec 2017, Jan 2016 - April 2016, Sept 2015 - Dec 2015],
-  location: [Richmond Hill, ON],
-  description: list(
-    [Enhanced practical skills in patient care, medical-surgical nursing, and teamwork across various clinical units.]
-  ),
 )

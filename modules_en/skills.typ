@@ -23,7 +23,7 @@
 
 #cvSkill(
   type: [Leadership],
-  info: [Preceptor for new nurses and students; charge nurse responsibilities; interdisciplinary team coordination.],
+  info: [Preceptor for new nurses and students; interdisciplinary team coordination.],
 )
 
 #cvSkill(
@@ -33,7 +33,7 @@
 
 #cvSkill(
   type: [Technical],
-  info: [Electronic health records (EHR), Microsoft Office Suite, and medical equipment operation.],
+  info: [Electronic medical records (EMR), Microsoft Office Suite, and medical equipment operation.],
 )
 
 #cvSection("Languages")
@@ -41,9 +41,4 @@
 #cvSkill(
   type: [English],
   info: [Native/Professional Proficiency],
-)
-
-#cvSkill(
-  type: [Italian],
-  info: [Basic],
 )

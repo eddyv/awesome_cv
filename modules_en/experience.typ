@@ -13,7 +13,6 @@
   date: [Jan 2018 - Current],
   location: [Newmarket, ON],
   description: list(
-    [Assumed charge nurse duties, coordinating patient assignments and supervising clinical operations.],
     [Educated patients on labour and delivery processes, postpartum care, and breastfeeding techniques.],
     [Assisted in Caesarean sections (C-Sections) and high-risk deliveries, ensuring patient safety and adherence to protocols.],
     [Completed thorough physical assessments and implement individualized care plans based on ongoing evaluations.],
@@ -51,10 +50,10 @@
 
 #cvEntry(
   title: [Student Nurse],
-  society: [Sunnybrook Hospital],
+  society: [Sunnybrook Hospital (Mental Health Unit)],
   date: [Sept 2016 - Dec 2016],
   location: [Toronto, ON],
   description: list(
-    [Developed clinical competencies in patient assessment and management within a dynamic hospital setting.]
+    [Strengthened skills in evaluating and caring for patients requiring specialized care and individualized support.]
   )
 )

@@ -12,6 +12,7 @@
   subject: "Subject: Hey!",
   signature: image("src/signature.png"),
 )
+#show link: set text(fill: rgb("#0395DE"))
 
 Dear Hiring Manager,
 

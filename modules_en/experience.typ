@@ -1,5 +1,5 @@
 // Imports
-#import "@local/brilliant-cv:2.0.3": cvSection, cvEntry
+#import "@local/brilliant-cv:2.0.3": cvEntry, cvSection
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
@@ -8,30 +8,32 @@
 #cvSection("Professional Experience")
 
 #cvEntry(
-  title: [Staff Partner Innovation Engineer],
+  title: [Staff Partner Innovation Engineer \ Manager, Partner Tech],
   society: [Confluent],
   logo: image("../src/logos/confluent.png"),
-  date: [Oct 2022 - Current],
+  date: [Oct 2022 - Jan 2026 \ Jan 2026 - Current],
   location: [Toronto, ON],
   description: list(
-    [Designed \& built a Kafka proxy to interpret Kafka's wire protocol, bridging clients and brokers to unlock advanced Confluent Cloud use cases via pluggable modules (Authentication Transformers, Interceptors).],
+    [Originated Confluent's OSS MCP server #link("https://github.com/confluentinc/mcp-confluent/")[mcp-confluent], exposing tools across Kafka, Flink, Schema Registry, Connectors, Tableflow, and Billing. Now officially supported as part of Confluent Intelligence and recognized by product leadership as a pillar of Confluent's AI/agents strategy. GTM motion generated \$4M in sourced pipeline.],
+    [Built a Kafka proxy to interpret Kafka's wire protocol, bridging clients and brokers via pluggable modules to unlock advanced Confluent Cloud use cases including field-level encryption, hybrid auth, and payload encryption using Vault, GCP KMS, and OPA. Directly influenced Confluent's product direction, laying the foundation for the adoption of Confluent Gateway and CSFLE/CSPE as productized solutions.],
+    [Delivered an end-to-end GenAI RAG #link("https://github.com/confluentinc/mongodb-cflt-genai-quickstart")[quickstart] integrating Confluent, Apache Flink, Amazon Bedrock, and MongoDB Atlas, showcased at AWS re:Invent as a go-to-market (GTM) initiative.],
     [Developed a DynamoDB Source Connector for a client, later promoted to a fully managed source connector.],
-    [Enhanced consumption tracking methodologies, driving insights into confluent cloud usage and billing.],
-    [Delivered an end-to-end Generative AI and Retrieval-Augmented Generation (RAG) application, integrating Confluent, Apache Flink, AI Model Inference, MongoDB Atlas, and a suite of AWS services (including Lambda, API Gateway, Secrets Manager, and S3), showcased at AWS re:Invent and webinars as a go-to-market initiative, strengthening strategic partnerships through co-marketing and technical collaboration.],
-    [Engineering cutting-edge Model Context Protocol (MCP) architectures to enhance LLM capabilities and RAG system integration.],
+    [Spearheaded Confluent Arcade, a gamified developer learning initiative modeled after AWS GameDay \& Google Skills, designed to bring hands-on Kafka and Confluent Cloud challenges to customers and the broader developer community],
+    [Drove the software delivery of Confluent Marketplace as a player-coach, leading a 3-engineer pod transforming Confluent Hub into a monetizable partner ecosystem with multi-tenancy, policy-based access controls (PBAC), and Cloud-integrated billing infrastructure.],
   ),
   tags: (
     "Kafka",
     "Flink",
     "KStream",
-    "Model Context Protocol",
+    "Schema Registry",
+    "MCP / AI Agents",
     "Terraform",
     "Java",
-    "Vert.x",
+    "Typescript",
     "GenAI",
     "AWS",
     "GCP",
-    "Azure"
+    "Azure",
   ),
 )
 
@@ -42,10 +44,10 @@
   date: [Nov 2020 - Oct 2022],
   location: [Toronto, ON],
   description: list(
-    [Architected multi-datacenter Kafka infrastructure with Schema Registry, MirrorMaker2, and Connect.],    [Developed automation for provisioning, maintaining, and monitoring Kafka environments using the HashiCorp stack.],
-    [Implemented observability solutions, creating real-time monitoring dashboards to track Kafka cluster connectivity, security, and performance. (DataDog, ElasticSearch, Prometheus, Grafana)],
+    [Architected multi-datacenter Kafka infrastructure with Schema Registry, MirrorMaker2, and Connect.],
+    [Developed automation for provisioning, maintaining, and monitoring Kafka environments using the HashiCorp stack.],
+    [Built real-time observability dashboards for Kafka cluster health, security, and performance using DataDog, Prometheus, and Grafana],
     [Built self-serve GitOps tools to increase speed and productivity of developers using the kafka platform. (Topic Management, ACL Management, Kafka Connect Cluster Deployment, KSQL Deployment, Self-Hosted GitHub Runners, etc... )],
-    [Increased our PaaS offerings by building an in-house CLI to interact with our private cloud infrastructure to deal with secret management, volume management, application deployment. (Typer CLI, Nomad APIs, Vault APIs)],
     [Optimized Kafka performance by identifying bottlenecks and implementing throughput enhancements.],
     [Ensured system reliability through rigorous disaster recovery testing and routine backup and restoration exercises.],
     [Educated staff on Kafka architecture, Schema Registry, and event-driven design principles, fostering company-wide adoption of best practices.],
@@ -92,7 +94,7 @@
   date: [May 2016 - Sept 2018],
   location: [Toronto, ON],
   description: list(
-    [Designed and developed scalable, responsive, and robust web pages optimized for high performance \& conversion rates.],
+    [Earlier experience in web development available on request],
     [Managed web pages, email hosting, and web hosting services to ensure seamless client operations and user satisfaction.],
     [Delivered detailed software solutions encompassing animations, scripting, and CMS development.],
   ),

@@ -12,6 +12,7 @@
 
 
 #show: cv.with(metadata)
+#show link: set text(fill: rgb("#0395DE"))
 #importModules((
   "summary",
   "experience",

@@ -8,7 +8,7 @@
 
 #cvSkill(
   type: [Programming],
-  info: [Java, Python, Bash, C\#, XNA Game Studio],
+  info: [Java, Python, Typescript, Bash],
 )
 
 #cvSkill(
@@ -17,16 +17,16 @@
 )
 
 #cvSkill(
-  type: [Big Data],
+  type: [Streaming & Data],
   info: [Confluent, Kafka, Flink, DataHub],
 )
 
 #cvSkill(
   type: [Cloud],
-  info: [AWS, GCP, Azure, OpenStack, DigitalOcean],
+  info: [AWS, GCP, Azure, OpenStack, Cloudflare],
 )
 
 #cvSkill(
   type: [DevOps],
-  info: [GitHub, GitHub Actions, SaltStack, Terraform, Nomad, Vault, Docker, GitLab, Ansible, Maven ],
+  info: [GitHub, GitHub Actions, SaltStack, Terraform, Nomad, Vault, Docker, GitLab, Ansible, Maven, SemaphoreCI ],
 )

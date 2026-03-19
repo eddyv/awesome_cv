@@ -7,4 +7,4 @@
 
 #cvSection("Professional Summary")
 
-#cvSummary(description: "Software engineer with 8+ years of expertise specializing in distributed systems and event-driven architectures. Proven track record in designing and implementing enterprise-scale Kafka ecosystems, cloud-native solutions, and real-time data pipelines across various cloud providers. Known for architecting sophisticated systems - from protocol-level engineering to AI-powered applications - while championing technical excellence and automating workflows.")
+#cvSummary(description: "Software engineer and engineering leader with 10+ years of expertise in distributed systems and event-driven architectures. Track record of taking high-ambiguity bets from zero to production, with work spanning AI agents, event streaming, and partner ecosystems that has repeatedly shaped product direction. Champions technical excellence while driving cross-functional initiatives that move the business forward.")

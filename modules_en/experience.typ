@@ -1,7 +1,7 @@
 // Imports
 #import "@local/brilliant-cv:2.0.3": cvEntry, cvSection
 #let metadata = toml("../metadata.toml")
-#let cvSection = cvSection.with(metadata: metadata)
+#let cvSection = cvSection.with(metadata: metadata, letters: 0)
 #let cvEntry = cvEntry.with(metadata: metadata)
 
 
@@ -14,9 +14,9 @@
   date: [Oct 2022 - Jan 2026 \ Jan 2026 - Current],
   location: [Toronto, ON],
   description: list(
-    [Originated Confluent's OSS MCP server #link("https://github.com/confluentinc/mcp-confluent/")[mcp-confluent], exposing tools across Kafka, Flink, Schema Registry, Connectors, Tableflow, and Billing. Now officially supported as part of Confluent Intelligence and recognized by product leadership as a pillar of Confluent's AI/agents strategy. GTM motion generated \$4M in sourced pipeline.],
+    [Originated Confluent's OSS MCP server #link("https://github.com/confluentinc/mcp-confluent/")[mcp-confluent], exposing tools across Kafka, Flink, Schema Registry, Connectors, Tableflow, and Billing. Now officially supported as part of Confluent Intelligence and recognized by product leadership as a pillar of Confluent's AI/agents strategy. go-to-market (GTM) motion generated upwards of \$4M in sourced pipeline.],
     [Built a Kafka proxy to interpret Kafka's wire protocol, bridging clients and brokers via pluggable modules to unlock advanced Confluent Cloud use cases including field-level encryption, hybrid auth, and payload encryption using Vault, GCP KMS, and OPA. Directly influenced Confluent's product direction, laying the foundation for the adoption of Confluent Gateway and CSFLE/CSPE as productized solutions.],
-    [Delivered an end-to-end GenAI RAG #link("https://github.com/confluentinc/mongodb-cflt-genai-quickstart")[quickstart] integrating Confluent, Apache Flink, Amazon Bedrock, and MongoDB Atlas, showcased at AWS re:Invent as a go-to-market (GTM) initiative.],
+    [Delivered an end-to-end GenAI RAG #link("https://github.com/confluentinc/mongodb-cflt-genai-quickstart")[quickstart] integrating Confluent, Apache Flink, Amazon Bedrock, and MongoDB Atlas, showcased at AWS re:Invent as a GTM initiative.],
     [Developed a DynamoDB Source Connector for a client, later promoted to a fully managed source connector.],
     [Spearheaded Confluent Arcade, a gamified developer learning initiative modeled after AWS GameDay \& Google Skills, designed to bring hands-on Kafka and Confluent Cloud challenges to customers and the broader developer community],
     [Drove the software delivery of Confluent Marketplace as a player-coach, leading a 3-engineer pod transforming Confluent Hub into a monetizable partner ecosystem with multi-tenancy, policy-based access controls (PBAC), and Cloud-integrated billing infrastructure.],

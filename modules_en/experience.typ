@@ -94,7 +94,7 @@
   date: [May 2016 - Sept 2018],
   location: [Toronto, ON],
   description: list(
-    [Earlier experience in web development available on request],
+    [Designed and developed scalable, responsive, and robust web pages optimized for high performance \& conversion rates.],
     [Managed web pages, email hosting, and web hosting services to ensure seamless client operations and user satisfaction.],
     [Delivered detailed software solutions encompassing animations, scripting, and CMS development.],
   ),

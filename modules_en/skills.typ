@@ -4,21 +4,21 @@
 #let cvSection = cvSection.with(metadata: metadata, letters: 0)
 
 
-#cvSection("Skills")
+#cvSection("Skills & Technologies")
 
 #cvSkill(
   type: [Programming],
-  info: [Java, Python, Typescript, Bash],
+  info: [Java, Python, Typescript, Bash, Go],
 )
 
 #cvSkill(
-  type: [Web],
-  info: [HTML5, CSS, JavaScript, Tailwindcss, Astro, WordPress, React],
+  type: [AI/Intelligence],
+  info: [MCP, RAG, Amazon Bedrock, GCP Vertex AI, OpenCode, Claude, ChatGPT],
 )
 
 #cvSkill(
   type: [Streaming & Data],
-  info: [Confluent, Kafka, Flink, DataHub],
+  info: [Confluent, Kafka, Flink, Schema Registry, DataHub, Postgres, DynamoDB, MongoDB],
 )
 
 #cvSkill(
@@ -28,5 +28,10 @@
 
 #cvSkill(
   type: [DevOps],
-  info: [GitHub, GitHub Actions, SaltStack, Terraform, Nomad, Vault, Docker, GitLab, Ansible, Maven, SemaphoreCI ],
+  info: [GitHub, GitHub Actions, Docker, SaltStack, Terraform, Vault, Nomad, Prometheus, Grafana, Ansible, SemaphoreCI],
+)
+
+#cvSkill(
+  type: [Web],
+  info: [HTML5, CSS, Typescript, JavaScript, Tailwindcss, Astro, WordPress, React],
 )
